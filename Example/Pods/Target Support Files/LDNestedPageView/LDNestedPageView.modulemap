@@ -1,0 +1,6 @@
+framework module LDNestedPageView {
+  umbrella header "LDNestedPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

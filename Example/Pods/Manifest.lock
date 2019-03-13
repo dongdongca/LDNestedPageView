@@ -1,0 +1,16 @@
+PODS:
+  - LDNestedPageView (1.0.0)
+
+DEPENDENCIES:
+  - LDNestedPageView (from `../`)
+
+EXTERNAL SOURCES:
+  LDNestedPageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LDNestedPageView: 18a54990c5da731df2a49933753fc792c1c83cfd
+
+PODFILE CHECKSUM: e30b50e11e2d5a5dace8fb0dc01c04efd713a8a1
+
+COCOAPODS: 1.5.3

@@ -24,6 +24,11 @@
 		6401E95351615A96E4ED2E6D /* Pods_LDNestedPageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05580786B31BD18A5A671D0 /* Pods_LDNestedPageView_Tests.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		DD41290D2238F6EE00DA3C40 /* LDNormalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41290C2238F6EE00DA3C40 /* LDNormalViewController.m */; };
+		DD4129102238F75700DA3C40 /* LDNormalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41290F2238F75700DA3C40 /* LDNormalTableView.m */; };
+		DD4129132238F85100DA3C40 /* LDNormalHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4129122238F85100DA3C40 /* LDNormalHeaderView.m */; };
+		DD4129162238F8A000DA3C40 /* LDNormalSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4129152238F8A000DA3C40 /* LDNormalSectionHeaderView.m */; };
+		DD41291A2239064000DA3C40 /* LDItemViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4129192239064000DA3C40 /* LDItemViewControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0433CC7338AFA9865B9D1871 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0433CC7338AFA9865B9D1871 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		136DA9F6AD066E9C11FD419B /* Pods-LDNestedPageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDNestedPageView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDNestedPageView_Example/Pods-LDNestedPageView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		363A0A76E91F4A9F2115E753 /* LDNestedPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LDNestedPageView.podspec; path = ../LDNestedPageView.podspec; sourceTree = "<group>"; };
+		363A0A76E91F4A9F2115E753 /* LDNestedPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LDNestedPageView.podspec; path = ../LDNestedPageView.podspec; sourceTree = "<group>"; };
 		48F1570BC8F0C7BDDEC4E04A /* Pods-LDNestedPageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDNestedPageView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LDNestedPageView_Tests/Pods-LDNestedPageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5F92538C4DC62E2E2FFD5523 /* Pods-LDNestedPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDNestedPageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDNestedPageView_Example/Pods-LDNestedPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LDNestedPageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDNestedPageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +68,19 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8BC25BFCA580CA11173CD1EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8BC25BFCA580CA11173CD1EA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A05580786B31BD18A5A671D0 /* Pods_LDNestedPageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDNestedPageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB98329E2BD49E359EDA7B41 /* Pods-LDNestedPageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LDNestedPageView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LDNestedPageView_Tests/Pods-LDNestedPageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD41290B2238F6EE00DA3C40 /* LDNormalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDNormalViewController.h; sourceTree = "<group>"; };
+		DD41290C2238F6EE00DA3C40 /* LDNormalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDNormalViewController.m; sourceTree = "<group>"; };
+		DD41290E2238F75700DA3C40 /* LDNormalTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDNormalTableView.h; sourceTree = "<group>"; };
+		DD41290F2238F75700DA3C40 /* LDNormalTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDNormalTableView.m; sourceTree = "<group>"; };
+		DD4129112238F85100DA3C40 /* LDNormalHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDNormalHeaderView.h; sourceTree = "<group>"; };
+		DD4129122238F85100DA3C40 /* LDNormalHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDNormalHeaderView.m; sourceTree = "<group>"; };
+		DD4129142238F8A000DA3C40 /* LDNormalSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDNormalSectionHeaderView.h; sourceTree = "<group>"; };
+		DD4129152238F8A000DA3C40 /* LDNormalSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDNormalSectionHeaderView.m; sourceTree = "<group>"; };
+		DD4129182239064000DA3C40 /* LDItemViewControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDItemViewControl.h; sourceTree = "<group>"; };
+		DD4129192239064000DA3C40 /* LDItemViewControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDItemViewControl.m; sourceTree = "<group>"; };
 		E9BDC434B6D8C857217887ED /* Pods_LDNestedPageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDNestedPageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,6 +163,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LDViewController.h */,
 				6003F5A6195388D20070C39A /* LDViewController.m */,
+				DD41290A2238F5FC00DA3C40 /* Normal */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +210,23 @@
 				8BC25BFCA580CA11173CD1EA /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		DD41290A2238F5FC00DA3C40 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				DD41290B2238F6EE00DA3C40 /* LDNormalViewController.h */,
+				DD41290C2238F6EE00DA3C40 /* LDNormalViewController.m */,
+				DD41290E2238F75700DA3C40 /* LDNormalTableView.h */,
+				DD41290F2238F75700DA3C40 /* LDNormalTableView.m */,
+				DD4129112238F85100DA3C40 /* LDNormalHeaderView.h */,
+				DD4129122238F85100DA3C40 /* LDNormalHeaderView.m */,
+				DD4129142238F8A000DA3C40 /* LDNormalSectionHeaderView.h */,
+				DD4129152238F8A000DA3C40 /* LDNormalSectionHeaderView.m */,
+				DD4129182239064000DA3C40 /* LDItemViewControl.h */,
+				DD4129192239064000DA3C40 /* LDItemViewControl.m */,
+			);
+			path = Normal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +280,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "李东";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZE3A94TNP4;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -368,8 +404,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* LDAppDelegate.m in Sources */,
+				DD41291A2239064000DA3C40 /* LDItemViewControl.m in Sources */,
 				6003F5A7195388D20070C39A /* LDViewController.m in Sources */,
+				DD41290D2238F6EE00DA3C40 /* LDNormalViewController.m in Sources */,
+				DD4129132238F85100DA3C40 /* LDNormalHeaderView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				DD4129102238F75700DA3C40 /* LDNormalTableView.m in Sources */,
+				DD4129162238F8A000DA3C40 /* LDNormalSectionHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +538,7 @@
 			baseConfigurationReference = 5F92538C4DC62E2E2FFD5523 /* Pods-LDNestedPageView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZE3A94TNP4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LDNestedPageView/LDNestedPageView-Prefix.pch";
 				INFOPLIST_FILE = "LDNestedPageView/LDNestedPageView-Info.plist";
@@ -512,6 +554,7 @@
 			baseConfigurationReference = 136DA9F6AD066E9C11FD419B /* Pods-LDNestedPageView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZE3A94TNP4;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LDNestedPageView/LDNestedPageView-Prefix.pch";
 				INFOPLIST_FILE = "LDNestedPageView/LDNestedPageView-Info.plist";
