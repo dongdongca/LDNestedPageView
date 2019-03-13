@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LDNestedPageView_Example' do
+  pod 'LDNestedPageView', :path => '../'
+
+  target 'LDNestedPageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
