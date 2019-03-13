@@ -12,7 +12,6 @@
 		1ECF320E6A14645C902F52E8269F1FCB /* Pods-LDNestedPageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA9C23DF077F5E27BB9651B5D5EB811 /* Pods-LDNestedPageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30FBB40F3654718B684477996EA305C9 /* LDNestedMainTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F12A0665681833CFCB8757C993191932 /* LDNestedMainTableView.m */; };
 		3F03F9974887AFAA0E6D9D4C538C699C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		436946977CAB98CCAE3B9C93EACDF55E /* LDNestedPageView-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = C9228C8A84B23AD5A9AD0AA59EB15D8D /* LDNestedPageView-Info.plist */; };
 		49035E6E977739482D1272323FDF8FA4 /* Pods-LDNestedPageView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 226A1B270AD2452BAC826C918C130A45 /* Pods-LDNestedPageView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CA2D8BB3F21B6C1C6CD98C447A27F25 /* LDNestedListContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF5FE0DB2424B937F89A840AD4A9424 /* LDNestedListContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A23B353511489F69D496571C1BD6890 /* LDNestedMainTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = B68BCD28321EA74187F2B59D85223452 /* LDNestedMainTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -21,7 +20,6 @@
 		70CC0F30441115C46F6647F52B944190 /* Pods-LDNestedPageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA3CF1CE6BEC22822B1A75D45338EEE /* Pods-LDNestedPageView_Tests-dummy.m */; };
 		76735A9DCF1A50C05949BC5093939C0C /* LDNestedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33D83C603F332697466E44AEBB80762 /* LDNestedView.m */; };
 		7752699B768B2F5A7A645A4C7B21CFB9 /* LDNestedListContainerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6169ABB1FB721BA4A473FB377AC2CE82 /* LDNestedListContainerCollectionView.m */; };
-		B54E42574E946ED10931BD06AFBFABA0 /* LDNestedPageView-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 111A756A78319B4269CA7E98486F888F /* LDNestedPageView-Prefix.pch */; };
 		D0B5B5B92985C0C7931D5D9B14317958 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		DC3645EED92FB5954BA19E6542EBF4B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		ECB5BBC2E5C575809E0C6C1100C955EB /* LDNestedPageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1F5E709E7ED6806B00959D6CA8A8DA2 /* LDNestedPageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,7 +51,6 @@
 		09692B7711F925EEC90C0B4D5F8AA503 /* LDNestedPageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LDNestedPageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BA3CF1CE6BEC22822B1A75D45338EEE /* Pods-LDNestedPageView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDNestedPageView_Tests-dummy.m"; sourceTree = "<group>"; };
 		0D428F19CE63EB51C77E9084CF2F7A13 /* Pods-LDNestedPageView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDNestedPageView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		111A756A78319B4269CA7E98486F888F /* LDNestedPageView-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LDNestedPageView-Prefix.pch"; path = "LDNestedPageView/Classes/LDNestedPageView-Prefix.pch"; sourceTree = "<group>"; };
 		117D2756C619AD45621B1798E2E3CA31 /* Pods-LDNestedPageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDNestedPageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1496267F4F2B3A1674C1B660DEB83B57 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		197DFAF9EA16774B81E41A8EE20FEECD /* Pods-LDNestedPageView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDNestedPageView_Example-resources.sh"; sourceTree = "<group>"; };
@@ -84,7 +81,6 @@
 		BBDDB3145FB9C1457CDBEB3CC4DC0DCC /* Pods-LDNestedPageView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDNestedPageView_Example.modulemap"; sourceTree = "<group>"; };
 		C3BC50848B47DED682F016B1E0C7CBE9 /* Pods-LDNestedPageView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDNestedPageView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C6B510426B9AE3E4A08DCFF0AEAD7405 /* LDNestedPageView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDNestedPageView-prefix.pch"; sourceTree = "<group>"; };
-		C9228C8A84B23AD5A9AD0AA59EB15D8D /* LDNestedPageView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "LDNestedPageView-Info.plist"; path = "LDNestedPageView/Classes/LDNestedPageView-Info.plist"; sourceTree = "<group>"; };
 		CEE033F1D86BA1366F2C4E96A34FFE5F /* Pods_LDNestedPageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LDNestedPageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33D83C603F332697466E44AEBB80762 /* LDNestedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDNestedView.m; path = LDNestedPageView/Classes/LDNestedView.m; sourceTree = "<group>"; };
 		D355651A1C226B27ED096DA52D20BBBF /* Pods-LDNestedPageView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDNestedPageView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -200,8 +196,6 @@
 				74FEB447E98B0DF21CC6EBF6FCFA796A /* LDNestedListContainerView.m */,
 				B68BCD28321EA74187F2B59D85223452 /* LDNestedMainTableView.h */,
 				F12A0665681833CFCB8757C993191932 /* LDNestedMainTableView.m */,
-				C9228C8A84B23AD5A9AD0AA59EB15D8D /* LDNestedPageView-Info.plist */,
-				111A756A78319B4269CA7E98486F888F /* LDNestedPageView-Prefix.pch */,
 				7A7D6DE0AF5D178197FEC50BA361F70C /* LDNestedView.h */,
 				D33D83C603F332697466E44AEBB80762 /* LDNestedView.m */,
 				FDC0B332DB7C51FE8E05D17778202B71 /* LDNestedViewListViewProtocol.h */,
@@ -425,8 +419,6 @@
 				1CA4C2DAD6D8967CB0AEFBD3648B7200 /* LDNestedListContainerView.m in Sources */,
 				30FBB40F3654718B684477996EA305C9 /* LDNestedMainTableView.m in Sources */,
 				025C323AD988E632F97532DEDF89F483 /* LDNestedPageView-dummy.m in Sources */,
-				436946977CAB98CCAE3B9C93EACDF55E /* LDNestedPageView-Info.plist in Sources */,
-				B54E42574E946ED10931BD06AFBFABA0 /* LDNestedPageView-Prefix.pch in Sources */,
 				76735A9DCF1A50C05949BC5093939C0C /* LDNestedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
